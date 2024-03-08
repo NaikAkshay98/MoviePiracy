@@ -1,0 +1,78 @@
+.advertisement-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background: url("https://m.media-amazon.com/images/M/MV5BNDlkMjQ1YzMtNTdmOC00NzQwLWJhNjEtNmZhMDk1OWMzMjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg");*/
+    background-size: cover; 
+    color: #fff;
+    padding: 20px;
+    position: relative; 
+    overflow: hidden; 
+  }
+
+  .advertisement-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit; 
+    filter: blur(8px); 
+    z-index: -1; 
+  }
+  
+  .banner-text {
+    z-index: 2; 
+    max-width: 50%;
+    position: relative; 
+    
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .explore-button:hover {
+    background-color: #f6121d;
+  }
+  
+  .banner-image img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .advertisement-banner {
+      flex-direction: column;
+    }
+    
+    .banner-text,
+    .banner-image img {
+      max-width: 100%;
+    }
+    
+    .banner-image {
+      display: none; 
+    }
+  }
+  

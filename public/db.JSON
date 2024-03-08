@@ -1,0 +1,227 @@
+{
+  "banners": [
+    { 
+      "id": 1,
+      "image": "image/Poacher.png", 
+      "title": "Poacher" 
+    },
+    { 
+      "id": 2,
+      "image": "image/The One Who Lives .png", 
+      "title": "The One Who Lives" 
+    },
+    { 
+      "id": 3,
+      "image": "image/Law and Order.png", 
+      "title": "Law and Order" 
+    },
+    { 
+      "id": 4,
+      "image": "image/The Best Hospital.png", 
+      "title": "siThe Best Hospital" 
+    }
+    
+  ],
+    "movies": [
+    {
+      "id": 1,
+      "title": "Back To The Future",
+      "synopsis": "A high school student, Marty McFly, gets catapulted back in time to the 1950s where he inadvertently disrupts his parents' first meeting. He must repair the damage to history by rekindling their romance, while finding a way back to the future.",
+      "poster": "image/movies/Back To The Future.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 2,
+      "title": "Harry Potter The Sorcerer's Stone",
+      "synopsis": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and attends Hogwarts School of Witchcraft and Wizardry. There, he embarks on a journey of magic, friendship, and self-discovery.",
+      "poster": "image/movies/Harry Potter And The Sorcerer's Stone.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 3,
+      "title": "Interstellar",
+      "synopsis": "In a future where Earth is struggling with crop failures, a group of astronauts travels through a wormhole in search of a new home for humanity. They must contend with the relativity of time and what they leave behind.",
+      "poster": "image/movies/Interstellar.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 4,
+      "title": "JAWS",
+      "synopsis": "The seaside community of Amity Island is terrorized by a predatory great white shark. It's up to the local sheriff, a marine biologist, and an old seafarer to hunt down the beast before it claims more victims.",
+      "poster": "image/movies/JAWS.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 5,
+      "title": "Joker",
+      "synopsis": "Arthur Fleck, an aspiring stand-up comedian with a failing career, finds himself descending into madness as he transforms into the criminal mastermind known as the Joker, challenging Gotham's status quo.",
+      "poster": "image/movies/Joker.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 6,
+      "title": "Jurassic Park",
+      "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+      "poster": "image/movies/Jurassic Park.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 7,
+      "title": "Kill Bill",
+      "synopsis": "A former assassin, known as The Bride, wakes up from a coma and seeks vengeance on her ex-boss and lover Bill, and his squad of assassin colleagues who betrayed her.",
+      "poster": "image/movies/Kill Bill.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 8,
+      "title": "Raiders Of The Lost Ark",
+      "synopsis": "The intrepid archaeologist Indiana Jones, on a quest to beat the Nazis, searches for the Ark of the Covenant, a relic said to make an army invincible.",
+      "poster": "image/movies/Raiders Of The Lost Ark.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 9,
+      "title": "Rocky",
+      "synopsis": "Rocky Balboa, a small-time boxer from working-class Philadelphia, is arbitrarily chosen to take on the reigning world heavyweight champion, Apollo Creed, when the undefeated fighter's scheduled opponent is injured.",
+      "poster": "image/movies/Rocky.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 10,
+      "title": "Scream",
+      "synopsis": "A year after the murder of her mother, a teenage girl is terrorized by a new killer, who targets the girl and her friends by using horror films as part of a deadly game.",
+      "poster": "image/movies/Scream.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 11,
+      "title": "The Dark Knight - The Joker",
+      "synopsis": "Batman faces his most enigmatic foe, the Joker, who thrusts Gotham City into anarchy and forces the Dark Knight closer to crossing the fine line between hero and vigilante.",
+      "poster": "image/movies/The Dark Knight - The Joker.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 12,
+      "title": "The Godfather",
+      "synopsis": "An Italian-American mafia family patriarch, Vito Corleone, navigates a succession of power to his reluctant son, Michael, amidst a world of power struggles, violence, and betrayal.",
+      "poster": "image/movies/The Godfather.jpg",
+      "largePoster": "GOT.jpeg",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    }
+  ],
+  "tvShows": [
+    {
+      "id": 13,
+      "title": "Fleabag",
+      "synopsis": "Fleabag is a hilarious and poignant window into the mind of a dry-witted, sexual, angry, grief-riddled woman, as she hurls herself at modern living in London.",
+      "poster": "image/tvshows/Fleabag.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 14,
+      "title": "Fourmore shots plz",
+      "synopsis": "This series revolves around the lives of four best friends as they navigate through love, careers, and their aspirations in modern-day India, all the while embracing their imperfections.",
+      "poster": "image/tvshows/Fourmore shots plz.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 15,
+      "title": "The Tourist",
+      "synopsis": "A British man finds himself in the glowing red heart of the Australian outback being pursued by a vast tank truck trying to drive him off the road, leading him into a cat-and-mouse chase with an unknown adversary.",
+      "poster": "image/tvshows/The Tourist.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 16,
+      "title": "Jack Ryan",
+      "synopsis": "CIA analyst Jack Ryan stumbles upon a series of suspicious bank transfers. His search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East.",
+      "poster": "image/tvshows/Jack Ryan.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 17,
+      "title": "Mirzapur",
+      "synopsis": "The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, an unworthy, power-hungry heir, stops at nothing to continue his father's legacy.",
+      "poster": "image/tvshows/Mirzapur.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 18,
+      "title": "Poacher",
+      "synopsis": "The series dives into the dark world of wildlife trafficking and the battle waged by conservationists and authorities to thwart poachers and protect endangered species.",
+      "poster": "image/tvshows/Poacher.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 19,
+      "title": "Red Queen",
+      "synopsis": "A young woman born into oppression discovers an incredible power within herself. In a world divided by blood and race, she represents the spark that could ignite a revolution.",
+      "poster": "image/tvshows/Red Queen.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 20,
+      "title": "The Boys",
+      "synopsis": "In a world where superheroes embrace the darker side of their massive celebrity and fame, a group of vigilantes known informally as “The Boys” set out to expose the truth about 'The Seven' and Vought, the conglomerate that covers up their dirty secrets.",
+      "poster": "image/tvshows/The Boys.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 21,
+      "title": "The Family Man",
+      "synopsis": "A middle-class man who works for the National Investigation Agency while he tries to protect the nation and make sure his family does not get neglected.",
+      "poster": "image/tvshows/The Family Man.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    },
+    {
+      "id": 22,
+      "title": "The Summer I Turned Pretty",
+      "synopsis": "Every summer, Belly and her family head to their family friends' beach house. Things are different this summer as she finds herself caught in a love triangle between two brothers, which might just turn pretty.",
+      "poster": "image/tvshows/The Summer I Turned Pretty.webp",
+      "largePoster": "img1.png",
+      "rentPrice": 3.99,
+      "buyPrice": 19.99
+    }
+  ]
+}
