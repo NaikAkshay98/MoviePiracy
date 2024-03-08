@@ -2,22 +2,22 @@
   "banners": [
     { 
       "id": 1,
-      "image": "image/Poacher.png", 
+      "image": "Image/Poacher.png", 
       "title": "Poacher" 
     },
     { 
       "id": 2,
-      "image": "image/The One Who Lives .png", 
+      "image": "Image/The One Who Lives .png", 
       "title": "The One Who Lives" 
     },
     { 
       "id": 3,
-      "image": "image/Law and Order.png", 
+      "image": "Image/Law and Order.png", 
       "title": "Law and Order" 
     },
     { 
       "id": 4,
-      "image": "image/The Best Hospital.png", 
+      "image": "Image/The Best Hospital.png", 
       "title": "siThe Best Hospital" 
     }
     
