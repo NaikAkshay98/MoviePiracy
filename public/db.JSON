@@ -27,7 +27,7 @@
       "id": 1,
       "title": "Back To The Future",
       "synopsis": "A high school student, Marty McFly, gets catapulted back in time to the 1950s where he inadvertently disrupts his parents' first meeting. He must repair the damage to history by rekindling their romance, while finding a way back to the future.",
-      "poster": "Image/Back To The Future.jpg",
+      "poster": "image/movies/Back To The Future.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -36,7 +36,7 @@
       "id": 2,
       "title": "Harry Potter The Sorcerer's Stone",
       "synopsis": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and attends Hogwarts School of Witchcraft and Wizardry. There, he embarks on a journey of magic, friendship, and self-discovery.",
-      "poster": "Image/Harry Potter And The Sorcerer's Stone.jpg",
+      "poster": "image/movies/Harry Potter And The Sorcerer's Stone.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -45,7 +45,7 @@
       "id": 3,
       "title": "Interstellar",
       "synopsis": "In a future where Earth is struggling with crop failures, a group of astronauts travels through a wormhole in search of a new home for humanity. They must contend with the relativity of time and what they leave behind.",
-      "poster": "Image/Interstellar.jpg",
+      "poster": "image/movies/Interstellar.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -54,7 +54,7 @@
       "id": 4,
       "title": "JAWS",
       "synopsis": "The seaside community of Amity Island is terrorized by a predatory great white shark. It's up to the local sheriff, a marine biologist, and an old seafarer to hunt down the beast before it claims more victims.",
-      "poster": "Image/JAWS.jpg",
+      "poster": "image/movies/JAWS.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -63,7 +63,7 @@
       "id": 5,
       "title": "Joker",
       "synopsis": "Arthur Fleck, an aspiring stand-up comedian with a failing career, finds himself descending into madness as he transforms into the criminal mastermind known as the Joker, challenging Gotham's status quo.",
-      "poster": "Image/Joker.jpg",
+      "poster": "image/movies/Joker.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -72,7 +72,7 @@
       "id": 6,
       "title": "Jurassic Park",
       "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
-      "poster": "Image/Jurassic Park.jpg",
+      "poster": "image/movies/Jurassic Park.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -81,7 +81,7 @@
       "id": 7,
       "title": "Kill Bill",
       "synopsis": "A former assassin, known as The Bride, wakes up from a coma and seeks vengeance on her ex-boss and lover Bill, and his squad of assassin colleagues who betrayed her.",
-      "poster": "Image/Kill Bill.jpg",
+      "poster": "image/movies/Kill Bill.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -90,7 +90,7 @@
       "id": 8,
       "title": "Raiders Of The Lost Ark",
       "synopsis": "The intrepid archaeologist Indiana Jones, on a quest to beat the Nazis, searches for the Ark of the Covenant, a relic said to make an army invincible.",
-      "poster": "Image/Raiders Of The Lost Ark.jpg",
+      "poster": "image/movies/Raiders Of The Lost Ark.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -99,7 +99,7 @@
       "id": 9,
       "title": "Rocky",
       "synopsis": "Rocky Balboa, a small-time boxer from working-class Philadelphia, is arbitrarily chosen to take on the reigning world heavyweight champion, Apollo Creed, when the undefeated fighter's scheduled opponent is injured.",
-      "poster": "Image/Rocky.jpg",
+      "poster": "image/movies/Rocky.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -108,7 +108,7 @@
       "id": 10,
       "title": "Scream",
       "synopsis": "A year after the murder of her mother, a teenage girl is terrorized by a new killer, who targets the girl and her friends by using horror films as part of a deadly game.",
-      "poster": "Image/Scream.jpg",
+      "poster": "image/movies/Scream.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -117,7 +117,7 @@
       "id": 11,
       "title": "The Dark Knight - The Joker",
       "synopsis": "Batman faces his most enigmatic foe, the Joker, who thrusts Gotham City into anarchy and forces the Dark Knight closer to crossing the fine line between hero and vigilante.",
-      "poster": "Image/The Dark Knight - The Joker.jpg",
+      "poster": "image/movies/The Dark Knight - The Joker.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
@@ -126,7 +126,7 @@
       "id": 12,
       "title": "The Godfather",
       "synopsis": "An Italian-American mafia family patriarch, Vito Corleone, navigates a succession of power to his reluctant son, Michael, amidst a world of power struggles, violence, and betrayal.",
-      "poster": "Image/The Godfather.jpg",
+      "poster": "image/movies/The Godfather.jpg",
       "largePoster": "GOT.jpeg",
       "rentPrice": 3.99,
       "buyPrice": 19.99
