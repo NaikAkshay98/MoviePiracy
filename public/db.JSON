@@ -2,12 +2,12 @@
   "banners": [
     { 
       "id": 1,
-      "image": "Image/Poacher.png", 
+      "image": "https://m.media-amazon.com/images/M/MV5BNDlkMjQ1YzMtNTdmOC00NzQwLWJhNjEtNmZhMDk1OWMzMjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@.V1.jpg", 
       "title": "Poacher" 
     },
     { 
       "id": 2,
-      "image": "Image/The One Who Lives .png", 
+      "image": "https://m.media-amazon.com/images/M/MV5BNDlkMjQ1YzMtNTdmOC00NzQwLWJhNjEtNmZhMDk1OWMzMjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@.V1.jpg", 
       "title": "The One Who Lives" 
     },
     { 
@@ -22,206 +22,344 @@
     }
     
   ],
-    "movies": [
+    "featuredmovies":[
+      {
+        "id": 1,
+        "title": "Space Man",
+        "synopsis": "Spaceman is a 2024 American science fiction drama film directed by Johan Renck and written by Colby Day. It is based on the 2017 novel Spaceman of Bohemia by Jaroslav Kalfař. Starring Adam Sandler, Carey Mulligan, Kunal Nayyar, Isabella Rossellini, and Paul Dano, it follows an astronaut sent on a mission to the edge of the solar system who encounters a creature that helps him put his earthly problems back together.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDlkMjQ1YzMtNTdmOC00NzQwLWJhNjEtNmZhMDk1OWMzMjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "14.99"
+      },
+      {
+        "id": 2,
+        "title": "Mea Culpa",
+        "synopsis": "Mea Culpa is a 2024 American legal thriller film written and directed by Tyler Perry. The film stars Kelly Rowland as a criminal defense attorney, who takes the case of an artist (played by Trevante Rhodes), who is accused of murdering his girlfriend. The film also stars Sean Sagar, Nick Sagar, RonReaco Lee, Shannon Thornton and Angela Robinson.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Mea_Culpa_2024_film_poster.jpg/220px-Mea_Culpa_2024_film_poster.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "16.99"
+      },
+      {
+        "id": 3,
+        "title": "Fighter",
+        "synopsis": "Fighter is a 2024 Indian Hindi-language action film directed by Siddharth Anand, based on a story he wrote with Ramon Chibb. Produced under Viacom18 Studios and Marflix Pictures, the film stars Hrithik Roshan, Deepika Padukone and Anil Kapoor, and serves as the first installment in a planned aerial action franchise.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjkwN2Q5Y2QtMmE2MC00NzlkLTg2NzQtYjVjYjVmNjE2ZTNiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "17.99"
+      },
+      {
+        "id": 4,
+        "title": "Eclipse of Destiny",
+        "synopsis": "Eclipse of Destiny is a 2024 British fantasy adventure film directed by Ava DuVernay. The film follows the journey of a young sorceress, who must find the ancient artifact to save her kingdom from eternal darkness. Starring Gemma Arterton, David Oyelowo, and Benedict Cumberbatch, the movie weaves a tale of magic, courage, and destiny.",
+        "poster": "https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/FR_Bungie_Lightfall_S4_1200x1600_1200x1600-bf75db9cb0253e1a378b43aeeba9b2ab",
+        "rentPrice": "5.99",
+        "purchasePrice": "20.00"
+      },
+      {
+        "id": 5,
+        "title": "The Last Code",
+        "synopsis": "The Last Code is a 2024 American cyber thriller directed by Denis Villeneuve. In a world where technology controls everything, a rogue AI threatens global security. A team of hackers and government agents come together to thwart the digital apocalypse. Starring Alicia Vikander, John Boyega, and Rami Malek, this film explores the fragility of our digital existence.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzg1OGViODUtYmMxZi00NjQ1LWE1YjctYzkzMGNiMzFmODY0XkEyXkFqcGdeQXVyNzUzNDA5MzY@._V1_.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "15.99"
+      },
+      {
+        "id": 6,
+        "title": "Gladiator 2",
+        "synopsis": "Gladiator 2 is an upcoming epic historical drama film directed by Ridley Scott. Serving as a sequel to Gladiator (2000), the film was written by David Scarpa, and stars Paul Mescal, Denzel Washington, Pedro Pascal, Joseph Quinn, Fred Hechinger, May Calamawy, Connie Nielsen, and Derek Jacobi, the last two reprising their roles. It will be produced by Scott Free Productions for Paramount Pictures and Universal Pictures.",
+        "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f452aa2c-0c64-4bbf-b065-942b8dbda8bb/dg68ys8-1438825a-5a88-4d91-97b6-7be57d3e3336.jpg/v1/fill/w_1280,h_1937,q_75,strp/gladiator_2_starring_paul_mescal_by_diamonddead_art_dg68ys8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkzNyIsInBhdGgiOiJcL2ZcL2Y0NTJhYTJjLTBjNjQtNGJiZi1iMDY1LTk0MmI4ZGJkYThiYlwvZGc2OHlzOC0xNDM4ODI1YS01YTg4LTRkOTEtOTdiNi03YmU1N2QzZTMzMzYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.oGx8-GF8qA_pNw__xf4mYVAMpe50Kq2DLW2Gf901tXM",
+        "rentPrice": "8.99",
+        "purchasePrice": "19.99"
+      },
+      {
+        "id": 7,
+        "title": "Venom 3",
+        "synopsis":"Venom 3 is an upcoming American superhero film featuring the Marvel Comics character Venom, produced by Columbia Pictures in association with Marvel, and distributed by Sony Pictures Releasing. It is intended to be the sixth film in Sony's Spider-Man Universe (SSU) and the sequel to Venom (2018) and Venom: Let There Be Carnage (2021). The film is being written, co-produced, and directed by Kelly Marcel from a story she wrote with Tom Hardy, who reprises his roles as Eddie Brock and Venom and also serves as a producer.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDEwNDE5ZDUtMjQ0ZC00OTA0LTkyOTQtZGE0OTU4Njc0MjM5XkEyXkFqcGdeQXVyMzEyMDQzNzY@._V1_.jpg", 
+        "rentPrice":"5.99",
+        "purchasePrice":"19.99"
+      },
+      {
+        "id": 6,
+        "title": "Everything Is Fine ",
+        "synopsis": "A dysfunctional Parisian family faces the illness of one of their children.",
+        "poster":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C152013E6E4299FEB4DCC2252CE5B9527F350F0EDB108C7B5A7AD03A065C4E9B/scale?width=506&amp;aspectRatio=2.00&amp;format=webp",
+        "rentPrice": "4.99",
+        "purchasePrice": "24.99"
+      }
+      
+     
+  ],
+  "featuredtvshows":[
     {
       "id": 1,
-      "title": "Back To The Future",
-      "synopsis": "A high school student, Marty McFly, gets catapulted back in time to the 1950s where he inadvertently disrupts his parents' first meeting. He must repair the damage to history by rekindling their romance, while finding a way back to the future.",
-      "poster": "image/movies/Back To The Future.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Big Brother Canada",
+      "synopsis": "Big Brother Canada is a Canadian television reality game show based on the Dutch reality show of the same name, which is part of the wider Big Brother franchise. The first season of the series premiered on February 27, 2013, on Slice. Starting with the third season, the show is aired on Global. The series is produced by Endemol and Insight Productions. It is hosted by Arisa Cox, who is concurrently an executive producer starting from the ninth season.",
+      "poster": "https://www.academy.ca/wp-content/uploads/2022/02/1644444704965ts_BigBrotherCanada.jpeg",
+      "rentPrice": "5.99",
+      "purchasePrice": "13.99"
     },
     {
       "id": 2,
-      "title": "Harry Potter The Sorcerer's Stone",
-      "synopsis": "Harry Potter, an eleven-year-old orphan, discovers that he is a wizard and attends Hogwarts School of Witchcraft and Wizardry. There, he embarks on a journey of magic, friendship, and self-discovery.",
-      "poster": "image/movies/Harry Potter And The Sorcerer's Stone.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Wicked Tuna",
+      "synopsis": "Wicked Tuna is an American reality television series about commercial tuna fishermen based in Gloucester, Massachusetts, who fish for the lucrative Atlantic bluefin tuna in the North Atlantic Ocean. The teams of fishermen battle each other to see who can get the most profit out of catching the fish. The series has aired on National Geographic Channel since April 1, 2012.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDI2OTdlNGUtYjI3NC00MzQ0LWEyODEtN2FlZjMxZmI3YjRmXkEyXkFqcGdeQXVyNTgxODk1MTc@._V1_.jpg",
+      "rentPrice": "7.99",
+      "purchasePrice": "15.99"
     },
     {
       "id": 3,
-      "title": "Interstellar",
-      "synopsis": "In a future where Earth is struggling with crop failures, a group of astronauts travels through a wormhole in search of a new home for humanity. They must contend with the relativity of time and what they leave behind.",
-      "poster": "image/movies/Interstellar.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Murder Is Easy",
+      "synopsis": "Murder Is Easy is a British mystery thriller television serial, based on the 1939 Agatha Christie novel of the same name. It is adapted by Siân Ejiwunmi-Le Berre and directed by Meenu Gaur. It premiered on BBC One and BBC iPlayer on 27 December 2023.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2Q4OGIyMDAtMWNkMC00MjY5LWIyZTktMTdhYjhjZjIxNjQ5XkEyXkFqcGdeQXVyMTYxMjYxMTU3._V1_FMjpg_UX1000_.jpg",
+      "rentPrice": "6.99",
+      "purchasePrice": "12.99"
     },
     {
       "id": 4,
-      "title": "JAWS",
-      "synopsis": "The seaside community of Amity Island is terrorized by a predatory great white shark. It's up to the local sheriff, a marine biologist, and an old seafarer to hunt down the beast before it claims more victims.",
-      "poster": "image/movies/JAWS.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Wonderful World",
+      "synopsis": "Wonderful World (Korean: 원더풀 월드) is an ongoing South Korean television series starring Kim Nam-joo, Cha Eun-woo, Kim Kang-woo, and Im Se-mi. It premiered on MBC TV on March 1, 2024, and airs every Friday and Saturday at 21:50. It is also available for streaming on Disney+ in selected regions.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/2/25/Wonderful_World_%28South_Korean_TV_series%29_poster.png",
+      "rentPrice": "6.99",
+      "purchasePrice": "11.99"
     },
     {
       "id": 5,
-      "title": "Joker",
-      "synopsis": "Arthur Fleck, an aspiring stand-up comedian with a failing career, finds himself descending into madness as he transforms into the criminal mastermind known as the Joker, challenging Gotham's status quo.",
-      "poster": "image/movies/Joker.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Somebody Feed Phil",
+      "synopsis": "Somebody Feed Phil is an American television travel documentary series presented by Philip Rosenthal that premiered on Netflix on January 12, 2018.",
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f7e3a324c57ab07ef1ec055/aa695842-5fcd-4c60-9195-24cfa00d8d33/Copy+of+Copy+of+SFP+Season+7+Post+%281%29.jpg",
+      "rentPrice": "8.99",
+      "purchasePrice": "12.99"
     },
     {
       "id": 6,
-      "title": "Jurassic Park",
-      "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
-      "poster": "image/movies/Jurassic Park.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Everything Is Fine ",
+      "synopsis": "A dysfunctional Parisian family faces the illness of one of their children.",
+      "poster":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C152013E6E4299FEB4DCC2252CE5B9527F350F0EDB108C7B5A7AD03A065C4E9B/scale?width=506&amp;aspectRatio=2.00&amp;format=webp",
+      "rentPrice": "4.99",
+      "purchasePrice": "24.99"
     },
     {
       "id": 7,
-      "title": "Kill Bill",
-      "synopsis": "A former assassin, known as The Bride, wakes up from a coma and seeks vengeance on her ex-boss and lover Bill, and his squad of assassin colleagues who betrayed her.",
-      "poster": "image/movies/Kill Bill.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "title": "Poacher",
+      "synopsis": "Poacher is an Indian Malayalam-language crime drama television miniseries created by Richie Mehta. The series stars Nimisha Sajayan, Roshan Mathew, Dibyendu Bhattacharya, Kani Kusruti, Ranjitha Menon,and Maala Parvathi. It is about forest officials who uncover an ivory poaching ring. The first three episodes premiered at the 2023 Sundance Film Festival. The series was released on Amazon Prime Video on 23 February 2024.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/b/b3/Poacher_TV_series.jpg",
+      "rentPrice": "8.99",
+      "purchasePrice": "11.99"
     },
     {
-      "id": 8,
-      "title": "Raiders Of The Lost Ark",
-      "synopsis": "The intrepid archaeologist Indiana Jones, on a quest to beat the Nazis, searches for the Ark of the Covenant, a relic said to make an army invincible.",
-      "poster": "image/movies/Raiders Of The Lost Ark.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
-    },
-    {
-      "id": 9,
-      "title": "Rocky",
-      "synopsis": "Rocky Balboa, a small-time boxer from working-class Philadelphia, is arbitrarily chosen to take on the reigning world heavyweight champion, Apollo Creed, when the undefeated fighter's scheduled opponent is injured.",
-      "poster": "image/movies/Rocky.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
-    },
-    {
-      "id": 10,
-      "title": "Scream",
-      "synopsis": "A year after the murder of her mother, a teenage girl is terrorized by a new killer, who targets the girl and her friends by using horror films as part of a deadly game.",
-      "poster": "image/movies/Scream.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
-    },
-    {
-      "id": 11,
-      "title": "The Dark Knight - The Joker",
-      "synopsis": "Batman faces his most enigmatic foe, the Joker, who thrusts Gotham City into anarchy and forces the Dark Knight closer to crossing the fine line between hero and vigilante.",
-      "poster": "image/movies/The Dark Knight - The Joker.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
-    },
-    {
-      "id": 12,
-      "title": "The Godfather",
-      "synopsis": "An Italian-American mafia family patriarch, Vito Corleone, navigates a succession of power to his reluctant son, Michael, amidst a world of power struggles, violence, and betrayal.",
-      "poster": "image/movies/The Godfather.jpg",
-      "largePoster": "GOT.jpeg",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 6,
+      "title": "Everything Is Fine ",
+      "synopsis": "A dysfunctional Parisian family faces the illness of one of their children.",
+      "poster":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C152013E6E4299FEB4DCC2252CE5B9527F350F0EDB108C7B5A7AD03A065C4E9B/scale?width=506&amp;aspectRatio=2.00&amp;format=webp",
+      "rentPrice": "4.99",
+      "purchasePrice": "24.99"
     }
+  ],
+    "movies": [
+      {
+        "id": 1,
+        "title": "Space Man",
+        "synopsis": "Spaceman is a 2024 American science fiction drama film directed by Johan Renck and written by Colby Day. It is based on the 2017 novel Spaceman of Bohemia by Jaroslav Kalfař. Starring Adam Sandler, Carey Mulligan, Kunal Nayyar, Isabella Rossellini, and Paul Dano, it follows an astronaut sent on a mission to the edge of the solar system who encounters a creature that helps him put his earthly problems back together.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDlkMjQ1YzMtNTdmOC00NzQwLWJhNjEtNmZhMDk1OWMzMjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "14.99"
+      },
+      {
+        "id": 2,
+        "title": "Mea Culpa",
+        "synopsis": "Mea Culpa is a 2024 American legal thriller film written and directed by Tyler Perry. The film stars Kelly Rowland as a criminal defense attorney, who takes the case of an artist (played by Trevante Rhodes), who is accused of murdering his girlfriend. The film also stars Sean Sagar, Nick Sagar, RonReaco Lee, Shannon Thornton and Angela Robinson.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Mea_Culpa_2024_film_poster.jpg/220px-Mea_Culpa_2024_film_poster.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "16.99"
+      },
+      {
+        "id": 3,
+        "title": "Fighter",
+        "synopsis": "Fighter is a 2024 Indian Hindi-language action film directed by Siddharth Anand, based on a story he wrote with Ramon Chibb. Produced under Viacom18 Studios and Marflix Pictures, the film stars Hrithik Roshan, Deepika Padukone and Anil Kapoor, and serves as the first installment in a planned aerial action franchise.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjkwN2Q5Y2QtMmE2MC00NzlkLTg2NzQtYjVjYjVmNjE2ZTNiXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "17.99"
+      },
+      {
+        "id": 4,
+        "title": "Eclipse of Destiny",
+        "synopsis": "Eclipse of Destiny is a 2024 British fantasy adventure film directed by Ava DuVernay. The film follows the journey of a young sorceress, who must find the ancient artifact to save her kingdom from eternal darkness. Starring Gemma Arterton, David Oyelowo, and Benedict Cumberbatch, the movie weaves a tale of magic, courage, and destiny.",
+        "poster": "https://cdn1.epicgames.com/offer/428115def4ca4deea9d69c99c5a5a99e/FR_Bungie_Lightfall_S4_1200x1600_1200x1600-bf75db9cb0253e1a378b43aeeba9b2ab",
+        "rentPrice": "5.99",
+        "purchasePrice": "20.00"
+      },
+      {
+        "id": 5,
+        "title": "The Last Code",
+        "synopsis": "The Last Code is a 2024 American cyber thriller directed by Denis Villeneuve. In a world where technology controls everything, a rogue AI threatens global security. A team of hackers and government agents come together to thwart the digital apocalypse. Starring Alicia Vikander, John Boyega, and Rami Malek, this film explores the fragility of our digital existence.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzg1OGViODUtYmMxZi00NjQ1LWE1YjctYzkzMGNiMzFmODY0XkEyXkFqcGdeQXVyNzUzNDA5MzY@._V1_.jpg",
+        "rentPrice": "5.99",
+        "purchasePrice": "15.99"
+      },
+      {
+        "id": 6,
+        "title": "Gladiator 2",
+        "synopsis": "Gladiator 2 is an upcoming epic historical drama film directed by Ridley Scott. Serving as a sequel to Gladiator (2000), the film was written by David Scarpa, and stars Paul Mescal, Denzel Washington, Pedro Pascal, Joseph Quinn, Fred Hechinger, May Calamawy, Connie Nielsen, and Derek Jacobi, the last two reprising their roles. It will be produced by Scott Free Productions for Paramount Pictures and Universal Pictures.",
+        "poster": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f452aa2c-0c64-4bbf-b065-942b8dbda8bb/dg68ys8-1438825a-5a88-4d91-97b6-7be57d3e3336.jpg/v1/fill/w_1280,h_1937,q_75,strp/gladiator_2_starring_paul_mescal_by_diamonddead_art_dg68ys8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkzNyIsInBhdGgiOiJcL2ZcL2Y0NTJhYTJjLTBjNjQtNGJiZi1iMDY1LTk0MmI4ZGJkYThiYlwvZGc2OHlzOC0xNDM4ODI1YS01YTg4LTRkOTEtOTdiNi03YmU1N2QzZTMzMzYuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.oGx8-GF8qA_pNw__xf4mYVAMpe50Kq2DLW2Gf901tXM",
+        "rentPrice": "8.99",
+        "purchasePrice": "19.99"
+      },
+      {
+        "id": 7,
+        "title": "Venom 3",
+        "synopsis":"Venom 3 is an upcoming American superhero film featuring the Marvel Comics character Venom, produced by Columbia Pictures in association with Marvel, and distributed by Sony Pictures Releasing. It is intended to be the sixth film in Sony's Spider-Man Universe (SSU) and the sequel to Venom (2018) and Venom: Let There Be Carnage (2021). The film is being written, co-produced, and directed by Kelly Marcel from a story she wrote with Tom Hardy, who reprises his roles as Eddie Brock and Venom and also serves as a producer.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDEwNDE5ZDUtMjQ0ZC00OTA0LTkyOTQtZGE0OTU4Njc0MjM5XkEyXkFqcGdeQXVyMzEyMDQzNzY@._V1_.jpg", 
+        "rentPrice":"5.99",
+        "purchasePrice":"19.99"
+      },
+      
+      {
+        "id": 8,
+        "title": "Perfect Days",
+        "synopsis":"Perfect Days is a 2023 drama film directed by Wim Wenders, from a script written by Wenders and Takuma Takasaki.[3] A co-production between Japan and Germany, the film combines four short stories and stars Kōji Yakusho in the role of a toilet cleaner.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjI2Njc4MGQtYzYwNC00MDQ1LTkyMzQtODY0NDk4NzZjNGMyXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg", 
+        "largePoster":"",
+        "rentPrice":"9.99",
+        "purchasePrice":"15.99"
+      },
+      {
+        "id": 9,
+        "title": "12.12: The Day",
+        "synopsis":"After President Park's assassination, martial law is declared. Security commander Chun Doo-gwang (Hwang Jung-min) and the officers who follow him stage a coup. Lee Tae-shin (Jung Woo-sung), a stubborn commander of the Capital Garrison Command who believes that soldiers should not take political action, fights against Chun Doo-gwang. As the conflict between the two men grows, the military leaders postpone their decisions, and the Minister of Defense disappears. In this chaos, spring in Seoul, which everyone longs for, heads in an unexpected direction.",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/12.12-_The_Day.jpg/220px-12.12-_The_Day.jpg",
+        "rentPrice":"4.99",
+        "purchasePrice":"19.99"
+      },
+      {
+        "id": 10,
+        "title": "Phoenix",
+        "synopsis":"Fiona's father has been killed in Florida, but she doesn't believe it was a suicide, and she learns that the prime suspect is a local drug kingpin with an army of mercenaries.",
+        "poster": "https://media.themoviedb.org/t/p/w500/uUYqoLpya2lohuOgssROvfGUElq.jpg",
+        "rentPrice":"9.99",
+        "purchasePrice":"15.99"
+      },
+      {
+        "id": 11,
+        "title": "Captain Millar",
+        "synopsis":"Captain Miller is a 2024 Indian Tamil-language epic action adventure film directed by Arun Matheswaran and produced by Sathya Jyothi Films. The film is the first part of a planned trilogy, and stars Dhanush in the title role, with Shiva Rajkumar, Priyanka Arul Mohan, Aditi Balan, Sundeep Kishan, Edward Sonnenblick and John Kokken in supporting roles. Set in the 1930s, during the British Raj, it follows a former British Army soldier trying to save his home village from destruction by the British Army.",
+        "poster": "https://miro.medium.com/v2/resize:fit:742/1*NPKf_p1Lym1_U6bwRbRtPw@2x.jpeg",
+        "rentPrice":"3.99",
+        "purchasePrice":"12.99"
+      },
+      {
+        "id": 12,
+        "title": "Freelance",
+        "synopsis":"Freelance is a 2023 American action comedy film directed by Pierre Morel and written by Jacob Lentz in his feature writing debut. It stars John Cena, Alison Brie, Juan Pablo Raba, and Christian Slater.",
+        "poster": "https://image.tmdb.org/t/p/original/1vtexc8NXmAPEZV8Yjfk7gLO8sh.jpg",
+        "rentPrice":"6.99",
+        "purchasePrice":"16.99"
+      },
+      {
+        "id": 13,
+        "title": "The Bee Keeper",
+        "synopsis":"The Beekeeper is a 2024 American action thriller film directed by David Ayer and written by Kurt Wimmer. The film stars Jason Statham, Emmy Raver-Lampman, Josh Hutcherson, Bobby Naderi, Phylicia Rashad, Jemma Redgrave and Jeremy Irons. When his good-hearted landlady commits suicide after losing her charity's funds to a phishing scam, former Beekeeper operative Adam Clay sets out on a brutal campaign for revenge upon those responsible.",
+        "poster": "https://englishtribuneimages.blob.core.windows.net/gallary-content/2023/12/2023_12$largeimg_292479859.jpg",
+        "rentPrice":"4.99",
+        "purchasePrice":"14.99"
+      }
   ],
   "tvShows": [
     {
-      "id": 13,
-      "title": "Fleabag",
-      "synopsis": "Fleabag is a hilarious and poignant window into the mind of a dry-witted, sexual, angry, grief-riddled woman, as she hurls herself at modern living in London.",
-      "poster": "image/tvshows/Fleabag.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 1,
+      "title": "Big Brother Canada",
+      "synopsis": "Big Brother Canada is a Canadian television reality game show based on the Dutch reality show of the same name, which is part of the wider Big Brother franchise. The first season of the series premiered on February 27, 2013, on Slice. Starting with the third season, the show is aired on Global. The series is produced by Endemol and Insight Productions. It is hosted by Arisa Cox, who is concurrently an executive producer starting from the ninth season.",
+      "poster": "https://www.academy.ca/wp-content/uploads/2022/02/1644444704965ts_BigBrotherCanada.jpeg",
+      "rentPrice": "5.99",
+      "purchasePrice": "13.99"
     },
     {
-      "id": 14,
-      "title": "Fourmore shots plz",
-      "synopsis": "This series revolves around the lives of four best friends as they navigate through love, careers, and their aspirations in modern-day India, all the while embracing their imperfections.",
-      "poster": "image/tvshows/Fourmore shots plz.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 2,
+      "title": "Wicked Tuna",
+      "synopsis": "Wicked Tuna is an American reality television series about commercial tuna fishermen based in Gloucester, Massachusetts, who fish for the lucrative Atlantic bluefin tuna in the North Atlantic Ocean. The teams of fishermen battle each other to see who can get the most profit out of catching the fish. The series has aired on National Geographic Channel since April 1, 2012.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDI2OTdlNGUtYjI3NC00MzQ0LWEyODEtN2FlZjMxZmI3YjRmXkEyXkFqcGdeQXVyNTgxODk1MTc@._V1_.jpg",
+      "rentPrice": "7.99",
+      "purchasePrice": "15.99"
     },
     {
-      "id": 15,
-      "title": "The Tourist",
-      "synopsis": "A British man finds himself in the glowing red heart of the Australian outback being pursued by a vast tank truck trying to drive him off the road, leading him into a cat-and-mouse chase with an unknown adversary.",
-      "poster": "image/tvshows/The Tourist.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 3,
+      "title": "Murder Is Easy",
+      "synopsis": "Murder Is Easy is a British mystery thriller television serial, based on the 1939 Agatha Christie novel of the same name. It is adapted by Siân Ejiwunmi-Le Berre and directed by Meenu Gaur. It premiered on BBC One and BBC iPlayer on 27 December 2023.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BY2Q4OGIyMDAtMWNkMC00MjY5LWIyZTktMTdhYjhjZjIxNjQ5XkEyXkFqcGdeQXVyMTYxMjYxMTU3._V1_FMjpg_UX1000_.jpg",
+      "rentPrice": "6.99",
+      "purchasePrice": "12.99"
     },
     {
-      "id": 16,
-      "title": "Jack Ryan",
-      "synopsis": "CIA analyst Jack Ryan stumbles upon a series of suspicious bank transfers. His search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East.",
-      "poster": "image/tvshows/Jack Ryan.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 4,
+      "title": "Wonderful World",
+      "synopsis": "Wonderful World (Korean: 원더풀 월드) is an ongoing South Korean television series starring Kim Nam-joo, Cha Eun-woo, Kim Kang-woo, and Im Se-mi. It premiered on MBC TV on March 1, 2024, and airs every Friday and Saturday at 21:50. It is also available for streaming on Disney+ in selected regions.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/2/25/Wonderful_World_%28South_Korean_TV_series%29_poster.png",
+      "rentPrice": "6.99",
+      "purchasePrice": "11.99"
     },
     {
-      "id": 17,
-      "title": "Mirzapur",
-      "synopsis": "The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, an unworthy, power-hungry heir, stops at nothing to continue his father's legacy.",
-      "poster": "image/tvshows/Mirzapur.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 5,
+      "title": "Somebody Feed Phil",
+      "synopsis": "Somebody Feed Phil is an American television travel documentary series presented by Philip Rosenthal that premiered on Netflix on January 12, 2018.",
+      "poster": "https://images.squarespace-cdn.com/content/v1/5f7e3a324c57ab07ef1ec055/aa695842-5fcd-4c60-9195-24cfa00d8d33/Copy+of+Copy+of+SFP+Season+7+Post+%281%29.jpg",
+      "rentPrice": "8.99",
+      "purchasePrice": "12.99"
     },
     {
-      "id": 18,
+      "id": 6,
+      "title": "Everything Is Fine ",
+      "synopsis": "A dysfunctional Parisian family faces the illness of one of their children.",
+      "poster":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C152013E6E4299FEB4DCC2252CE5B9527F350F0EDB108C7B5A7AD03A065C4E9B/scale?width=506&amp;aspectRatio=2.00&amp;format=webp",
+      "rentPrice": "4.99",
+      "purchasePrice": "24.99"
+    },
+    {
+      "id": 7,
       "title": "Poacher",
-      "synopsis": "The series dives into the dark world of wildlife trafficking and the battle waged by conservationists and authorities to thwart poachers and protect endangered species.",
-      "poster": "image/tvshows/Poacher.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "synopsis": "Poacher is an Indian Malayalam-language crime drama television miniseries created by Richie Mehta. The series stars Nimisha Sajayan, Roshan Mathew, Dibyendu Bhattacharya, Kani Kusruti, Ranjitha Menon,and Maala Parvathi. It is about forest officials who uncover an ivory poaching ring. The first three episodes premiered at the 2023 Sundance Film Festival. The series was released on Amazon Prime Video on 23 February 2024.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/b/b3/Poacher_TV_series.jpg",
+      "rentPrice": "8.99",
+      "purchasePrice": "11.99"
     },
     {
-      "id": 19,
-      "title": "Red Queen",
-      "synopsis": "A young woman born into oppression discovers an incredible power within herself. In a world divided by blood and race, she represents the spark that could ignite a revolution.",
-      "poster": "image/tvshows/Red Queen.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 8,
+      "title": "House Hunters",
+      "synopsis": "House Hunters is an American unscripted television series that airs on HGTV and is produced by Pie Town Productions. Each episode follows people making a decision about a new home purchase or rental.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODIxOTA5MDktOWJiMi00Zjc1LWEwZGQtYWE0ZDA5Yjk2OWNhXkEyXkFqcGdeQXVyODE3NTkwMzg@._V1_.jpg",
+      "rentPrice": "5.99",
+      "purchasePrice": "13.99"
     },
     {
-      "id": 20,
-      "title": "The Boys",
-      "synopsis": "In a world where superheroes embrace the darker side of their massive celebrity and fame, a group of vigilantes known informally as “The Boys” set out to expose the truth about 'The Seven' and Vought, the conglomerate that covers up their dirty secrets.",
-      "poster": "image/tvshows/The Boys.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 9,
+      "title": "Catch Me a Killer",
+      "synopsis": "In 1994, Micki Pistorius joins a police task team on the hunt for the notorious Station Strangler, who has left a trail of 22 dead boys in his wake.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMWJjNzczMzctZjYzYS00ODA4LTlmMzEtY2M2OTY4ZTRmNmZmXkEyXkFqcGdeQXVyMTUyMjEyMjMx._V1_FMjpg_UX1000_.jpg",
+      "rentPrice": "6.99",
+      "purchasePrice": "14.99"
     },
     {
-      "id": 21,
-      "title": "The Family Man",
-      "synopsis": "A middle-class man who works for the National Investigation Agency while he tries to protect the nation and make sure his family does not get neglected.",
-      "poster": "image/tvshows/The Family Man.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 10,
+      "title": "Lost U-Boats of WWII",
+      "synopsis": "During World War II, Nazis looted whatever they could find; Darrell Miklos believes some of these stolen riches were stored in modified U-boats that lie at the bottom of the of the Caribbean Sea; along with his team, he sets out to find them.",
+      "poster": "data:image/jpeg;base64,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",
+      "rentPrice": "5.99",
+      "purchasePrice": "15.99"
     },
     {
-      "id": 22,
-      "title": "The Summer I Turned Pretty",
-      "synopsis": "Every summer, Belly and her family head to their family friends' beach house. Things are different this summer as she finds herself caught in a love triangle between two brothers, which might just turn pretty.",
-      "poster": "image/tvshows/The Summer I Turned Pretty.webp",
-      "largePoster": "img1.png",
-      "rentPrice": 3.99,
-      "buyPrice": 19.99
+      "id": 11,
+      "title": "Avatar: The Last Airbender",
+      "synopsis": "A young boy known as the Avatar must master the four elemental powers to save a world at war and fight a ruthless enemy bent on stopping him.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/b/b6/Avatar_The_Last_Airbender_2024_series_poster.jpg",
+      "rentPrice": "9.99",
+      "purchasePrice": "11.99"
+    },
+    {
+      "id": 12,
+      "title": "The Railway Men",
+      "synopsis": "After a deadly gas leaks from a factory in Bhopal, brave railway workers risk their lives to save others in the face of an unspeakable disaster.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjgyMDkzMjAtMWNlZS00OTkzLWI2MzItN2JiZmUzM2VkMDFiXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+      "rentPrice": "6.99",
+      "purchasePrice": "11.99"
     }
   ]
 }

@@ -1,0 +1,69 @@
+.search-results-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* High z-index to ensure it is above all other content */
+}
+
+.search-results-backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent backdrop */
+  z-index: -1; /* Ensure the backdrop is behind the popup content */
+}
+
+.search-results-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  z-index: 1001; /* Ensure the content is above the backdrop */
+  overflow-y: auto; /* Scrollable if the content overflows */
+}
+
+.search-results-close-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.search-result-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-result-image {
+  width: 100%; /* Adjust as needed */
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-result-title {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 1rem;
+  color: #333333; /* Dark text for titles */
+}
+
+/* Additional styles for buttons or other elements inside the popup */

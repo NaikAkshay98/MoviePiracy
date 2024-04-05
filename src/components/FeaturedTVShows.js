@@ -1,19 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom'
+import axios from 'axios'; // Make sure to install and import axios
+import { Link } from 'react-router-dom';
 import '../css/FeaturedMoviesTVShows.css'; 
 
-const FeaturedTVShows = ({ }) => {
-  const [tvShows, setTvshows] = useState([]);
+const FeaturedTVShows = () => {
+  const [featuredtvshows, setFeaturedTVShows] = useState([]); // Changed to camelCase for consistency
 
   useEffect(() => {
-    
-    const fetchTvShows = async () => {
-      const response = await fetch('/db.JSON');
-      const data = await response.json();
-      setTvshows(data.tvShows); 
+    const fetchFeaturedTVShows = async () => {
+      try {
+        // Use axios to fetch data from your API endpoint
+        const response = await axios.get('http://localhost:6070/api/tvshows/featured');
+        setFeaturedTVShows(response.data); // Assuming the API returns the data array directly
+      } catch (error) {
+        console.error('Error fetching featured TV shows:', error);
+        // Handle error here, e.g., update state to show an error message to the user
+      }
     };
 
-    fetchTvShows();
+    fetchFeaturedTVShows();
   }, []);
 
   return (
@@ -23,10 +28,9 @@ const FeaturedTVShows = ({ }) => {
         <Link to="/movies" className="view-all">View All</Link>
       </div>
       <div className="movie-container">
-        {tvShows.map((tvShow) => (
+        {featuredtvshows.map((tvShow) => (
           <div key={tvShow.id} className="movie-card">
             <img src={tvShow.poster} alt={tvShow.title} />
-            
           </div>
         ))}
       </div>

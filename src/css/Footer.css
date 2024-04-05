@@ -2,7 +2,8 @@
   background-color: rgba(20, 20, 20, 0.10);
   color: #c9d1d9; 
   padding: 20px 40px; 
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin-top: 250px; 
 }
 
 .footer-logo img {

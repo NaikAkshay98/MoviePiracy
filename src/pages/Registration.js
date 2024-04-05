@@ -1,19 +1,88 @@
-import React from 'react';
-import '../css/Registration.css'; 
+import React, { useState, useContext } from 'react';
+import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useNavigate } from 'react-router-dom';
+import { UserContext } from '../components/UserContext'; // Import UserContext
+import '../css/Registration.css';
 
 const Registration = ({ onClose }) => {
+  const navigate = useNavigate();
+  const { setUser } = useContext(UserContext); // Use setUser from context
+
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: ''
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('http://localhost:6070/api/users', formData);
+      setUser(response.data); // Update user context with newly registered user
+      localStorage.setItem('user', JSON.stringify(response.data)); // Optional: Save user to localStorage
+      toast.success('Registration successful!', {
+        onClose: () => {
+          onClose(); // Close the registration modal
+          setTimeout(() => navigate('/'), 500); // Delay navigation to give the user time to see the toast
+        }
+      });
+    } catch (error) {
+      toast.error(error.response?.data || 'An error occurred during registration.');
+    }
+  };
+
   return (
     <div className="registration-modal">
+      <ToastContainer position="top-center" autoClose={5000} />
       <div className="registration-content">
         <button onClick={onClose} className="close-button">X</button>
         <h2>Create a New Account</h2>
-        <form className="registration-form">
+        <form className="registration-form" onSubmit={handleSubmit}>
           <div className="name-field">
-            <input type="text" placeholder="First name" required />
-            <input type="text" placeholder="Last name" required />
+            <input 
+              type="text" 
+              placeholder="First name" 
+              name="firstName" 
+              value={formData.firstName}
+              onChange={handleChange}
+              required 
+            />
+            <input 
+              type="text" 
+              placeholder="Last name" 
+              name="lastName" 
+              value={formData.lastName}
+              onChange={handleChange}
+              required 
+            />
           </div>
-          <input type="email" placeholder="Email" required />
-          <input type="password" placeholder="Password" required />
+          <input 
+            type="email" 
+            placeholder="Email" 
+            name="email" 
+            value={formData.email}
+            onChange={handleChange}
+            required 
+          />
+          <input 
+            type="password" 
+            placeholder="Password" 
+            name="password" 
+            value={formData.password}
+            onChange={handleChange}
+            required 
+          />
           
           <button type="submit" className="signup-button">Sign Up</button>
         </form>

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios'; // Make sure to import axios
 
 import '../css/ListingPage.css'; 
-
 
 const ListingPage = () => {
   const [allContent, setAllContent] = useState([]);
@@ -11,11 +11,20 @@ const ListingPage = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('/db.JSON'); 
-      const data = await response.json();
-      const combinedContent = [...data.movies, ...data.tvShows.map(show => ({ ...show, isTvShow: true }))]; 
-      setAllContent(combinedContent);
-      setContent(combinedContent);
+      try {
+        const moviesResponse = await axios.get('http://localhost:6070/api/movies');
+        const moviesData = moviesResponse.data; // Assuming this endpoint returns an array
+
+        const tvShowsResponse = await axios.get('http://localhost:6070/api/tvshows');
+        const tvShowsData = tvShowsResponse.data.map(show => ({ ...show, isTvShow: true })); // Mark each TV show with a flag
+
+        const combinedContent = [...moviesData, ...tvShowsData]; 
+        setAllContent(combinedContent);
+        setContent(combinedContent);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+        // Handle error here, such as displaying a message
+      }
     };
 
     fetchData();

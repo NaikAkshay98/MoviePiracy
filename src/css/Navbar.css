@@ -46,3 +46,37 @@
   color: white;
   margin-left: 20px; 
 }
+
+
+/* Existing CSS */
+
+.navbar__search-form {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust as necessary */
+}
+
+.navbar__search-input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.navbar__search-button {
+  background-color: #fa6c59; /* Example color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.navbar__search-button:hover {
+  background-color: #f74c35; /* Darker shade for hover effect */
+}
+
+/* Add this to ensure that links in the navbar don't have underlines */
+.navbar a {
+  text-decoration: none;
+}
