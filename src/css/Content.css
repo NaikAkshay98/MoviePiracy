@@ -1,78 +1,70 @@
 .advertisement-banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /*background: url("https://m.media-amazon.com/images/M/MV5BNDlkMjQ1YzMtNTdmOC00NzQwLWJhNjEtNmZhMDk1OWMzMjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg");*/
-    background-size: cover; 
-    color: #fff;
-    padding: 20px;
-    position: relative; 
-    overflow: hidden; 
+  display: flex;
+  justify-content: start; /* Aligns content to the left */
+  align-items: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, transparent 60%), url("https://media-cache.cinematerial.com/p/500x/advjxuom/pokemon-detective-pikachu-key-art.jpg?v=1543763902") no-repeat center center/cover;
+  color: #fff;
+  padding: 40px; /* Increased padding for a more spacious look */
+  margin: 0 20px; /* Added margin to left and right */
+  position: relative;
+  overflow: hidden;
+  height: 400px; /* Adjusted height for better visibility and proportion */
+  border-radius: 40px; /* Added border radius */
+}
+
+.advertisement-banner::before {
+  content: '';
+  position: absolute;
+  top: -10px; /* Slightly larger area for blur effect */
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  background: inherit;
+  filter: blur(10px); /* Increased blur for a softer background */
+  z-index: -1;
+}
+
+.banner-text {
+  z-index: 2;
+  max-width: 40%; /* Adjusted width for text area */
+  position: relative;
+}
+
+.banner-text h1 {
+  font-size: 3rem; /* Larger font size for headline */
+  margin-bottom: 20px; /* Increased spacing */
+}
+
+.banner-text p {
+  font-size: 1.2rem; /* Larger font size for paragraph */
+  margin-bottom: 30px; /* Increased spacing */
+}
+
+.explore-button {
+  padding: 15px 30px; /* Larger button for better interaction */
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.explore-button:hover {
+  background-color: #f6121d;
+}
+
+@media (max-width: 768px) {
+  .advertisement-banner {
+    flex-direction: column;
+    text-align: center; /* Centers text for mobile */
+    height: auto; /* Adjusts height for mobile layout */
+    padding: 20px; /* Reduced padding for smaller screens */
   }
 
-  .advertisement-banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit; 
-    filter: blur(8px); 
-    z-index: -1; 
-  }
-  
   .banner-text {
-    z-index: 2; 
-    max-width: 50%;
-    position: relative; 
-    
+    max-width: 100%;
   }
-  
-  .banner-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .banner-text p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-  }
-  
-  .explore-button {
-    padding: 10px 20px;
-    background-color: #e50914;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  .explore-button:hover {
-    background-color: #f6121d;
-  }
-  
-  .banner-image img {
-    max-width: 40%;
-    height: auto;
-    border-radius: 5px;
-  }
-  
-  
-  @media (max-width: 768px) {
-    .advertisement-banner {
-      flex-direction: column;
-    }
-    
-    .banner-text,
-    .banner-image img {
-      max-width: 100%;
-    }
-    
-    .banner-image {
-      display: none; 
-    }
-  }
-  
+}

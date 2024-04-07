@@ -8,25 +8,28 @@
   align-items: center;
   justify-content: center;
   z-index: 1000; /* High z-index to ensure it is above all other content */
+  overflow: auto;
 }
 
 .search-results-backdrop {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent backdrop */
+  background-color: rgba(0, 0, 0, 0.5); 
   z-index: -1; /* Ensure the backdrop is behind the popup content */
 }
 
 .search-results-content {
-  background: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 15px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   width: 80%;
   max-width: 600px;
   z-index: 1001; /* Ensure the content is above the backdrop */
-  overflow-y: auto; /* Scrollable if the content overflows */
+  max-height: 80vh; /* Adjust the max height to control when the scrollbar appears */
+  overflow-y: auto; /* Ensures content is scrollable if it overflows */
+  margin-top: 30px;
 }
 
 .search-results-close-btn {
@@ -55,7 +58,7 @@
 .search-result-image {
   width: 100%; /* Adjust as needed */
   height: auto;
-  border-radius: 4px;
+  border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,7 +66,27 @@
   margin-top: 8px;
   text-align: center;
   font-size: 1rem;
-  color: #333333; /* Dark text for titles */
+  color: #bebcbc; /* Dark text for titles */
 }
 
 /* Additional styles for buttons or other elements inside the popup */
+/* Styling the scrollbar for Chrome, Edge, and Safari */
+.search-results-content::-webkit-scrollbar {
+  width: 8px; /* Adjust scrollbar width */
+}
+
+.search-results-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2); /* Track color */
+}
+
+.search-results-content::-webkit-scrollbar-thumb {
+  background-color: rgba(34, 34, 34, 0.5); /* Thumb color */
+  border-radius: 4px; /* Rounded corners for the thumb */
+  border: 2px solid transparent; /* Creates padding around the thumb */
+}
+
+/* Styling the scrollbar for Firefox */
+.search-results-content {
+  scrollbar-width: thin; /* Similar to width in the styles above */
+  scrollbar-color: rgba(34, 34, 34, 0.5) rgba(0, 0, 0, 0.2); /* Thumb and track color */
+}

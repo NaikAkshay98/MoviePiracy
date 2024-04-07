@@ -104,8 +104,9 @@ const Navbar = () => {
           </form>
           {user ? (
             <>
-              <Link to="/dashboard">Hello, {user.firstName}</Link> 
-              <button onClick={handleSignOut}>Sign Out</button>
+              <Link to="/dashboard" className="navbar__greeting">Hello, {user.firstName}</Link> 
+              <button onClick={handleSignOut} className="sign-out-btn">Sign Out</button>
+
             </>
             ) : (
             <>

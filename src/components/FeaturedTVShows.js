@@ -21,6 +21,8 @@ const FeaturedTVShows = () => {
     fetchFeaturedTVShows();
   }, []);
 
+  
+
   return (
     <section className="featured-movies">
       <div className="featured-header">
@@ -28,14 +30,19 @@ const FeaturedTVShows = () => {
         <Link to="/movies" className="view-all">View All</Link>
       </div>
       <div className="movie-container">
-        {featuredtvshows.map((tvShow) => (
-          <div key={tvShow.id} className="movie-card">
-            <img src={tvShow.poster} alt={tvShow.title} />
-          </div>
+      {featuredtvshows.map((tvShow) => (
+          <Link key={tvShow.id} to={`/${tvShow.title}/${tvShow.id}`}>
+            <div className="movie-card">
+              <img src={tvShow.poster} alt={tvShow.title} />
+            </div>
+          </Link>
         ))}
       </div>
     </section>
   );
+
+
+
 };
 
 export default FeaturedTVShows;
