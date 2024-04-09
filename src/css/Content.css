@@ -1,6 +1,6 @@
 .advertisement-banner {
   display: flex;
-  justify-content: start; /* Aligns content to the left */
+  justify-content: flex-start;
   align-items: center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, transparent 60%), url("https://media-cache.cinematerial.com/p/500x/advjxuom/pokemon-detective-pikachu-key-art.jpg?v=1543763902") no-repeat center center/cover;
   color: #fff;
