@@ -12,7 +12,7 @@ const HeroSection = () => {
     const fetchBanners = async () => {
       try {
         // Replace the local fetch call with a call to your endpoint
-        const response = await axios.get('http://localhost:6070/api/banners');
+        const response = await axios.get('https://moviepiracy-3b45209c39bf.herokuapp.com/api/banners');
         setBanners(response.data); // Assuming the response data is an array of banners
       } catch (error) {
         console.error('Error fetching banners:', error);

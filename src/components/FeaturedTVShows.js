@@ -10,7 +10,7 @@ const FeaturedTVShows = () => {
     const fetchFeaturedTVShows = async () => {
       try {
         // Use axios to fetch data from your API endpoint
-        const response = await axios.get('http://localhost:6070/api/tvshows/featured');
+        const response = await axios.get('https://moviepiracy-3b45209c39bf.herokuapp.com/api/tvshows/featured');
         setFeaturedTVShows(response.data); // Assuming the API returns the data array directly
       } catch (error) {
         console.error('Error fetching featured TV shows:', error);

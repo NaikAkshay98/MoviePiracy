@@ -24,11 +24,11 @@ const Login = ({ onClose }) => {
   
     try {
       // Attempt to authenticate the user
-      const authResponse = await axios.post('http://localhost:6070/api/users/authenticate', { email, password });
+      const authResponse = await axios.post('https://moviepiracy-3b45209c39bf.herokuapp.com/api/users/authenticate', { email, password });
       if (authResponse.data) {
         // If authentication is successful, retrieve the user's details
         
-        const userResponse = await axios.get(`http://localhost:6070/api/users/email/${email}`);
+        const userResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/users/email/${email}`);
         // Now store the user details in localStorage and context state
         localStorage.setItem('user', JSON.stringify(userResponse.data));
         setUser(userResponse.data); // Update context with the user data

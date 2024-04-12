@@ -11,7 +11,7 @@ const MovieDetail = () => {
     const fetchMovieDetails = async () => {
       try {
         // Attempt to fetch from movies endpoint
-        let response = await axios.get(`http://localhost:6070/api/movies/${id}`);
+        let response = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/movies/${id}`);
         if (response.data) {
           setMovieDetails(response.data);
           return;
@@ -20,7 +20,7 @@ const MovieDetail = () => {
         console.log('Fetching movie details failed, trying TV shows...');
         // Attempt to fetch from TV shows endpoint if movie fetch fails
         try {
-          let response = await axios.get(`http://localhost:6070/api/tvshows/${id}`);
+          let response = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/tvshows/${id}`);
           if (response.data) {
             setMovieDetails(response.data);
           }

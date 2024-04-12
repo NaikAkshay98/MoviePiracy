@@ -9,7 +9,7 @@ const FeaturedMovies = () => {
   useEffect(() => {
     const fetchFeaturedMovies = async () => {
       try {
-        const response = await fetch('http://localhost:6070/api/movies/featured');
+        const response = await fetch('https://moviepiracy-3b45209c39bf.herokuapp.com/api/movies/featured');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

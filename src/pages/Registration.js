@@ -28,7 +28,7 @@ const Registration = ({ onClose }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:6070/api/users', formData);
+      const response = await axios.post('https://moviepiracy-3b45209c39bf.herokuapp.com/api/users', formData);
       setUser(response.data); // Update user context with newly registered user
       localStorage.setItem('user', JSON.stringify(response.data)); // Optional: Save user to localStorage
       toast.success('Registration successful!', {

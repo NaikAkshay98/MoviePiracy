@@ -23,7 +23,7 @@ const Dashboard = () => {
         }
   
         // Make sure this URL matches the endpoint that works in Postman
-        const response = await axios.get(`http://localhost:6070/api/users/${user.id}`);
+        const response = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/users/${user.id}`);
   
         // Assuming the response data structure matches the one returned by your endpoint
         setUserData(response.data);
