@@ -12,10 +12,10 @@ const ListingPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const moviesResponse = await axios.get('http://localhost:6070/api/movies');
+        const moviesResponse = await axios.get('https://moviepiracy-3b45209c39bf.herokuapp.com/api/movies');
         const moviesData = moviesResponse.data; // Assuming this endpoint returns an array
 
-        const tvShowsResponse = await axios.get('http://localhost:6070/api/tvshows');
+        const tvShowsResponse = await axios.get('https://moviepiracy-3b45209c39bf.herokuapp.com/api/tvshows');
         const tvShowsData = tvShowsResponse.data.map(show => ({ ...show, isTvShow: true })); // Mark each TV show with a flag
 
         const combinedContent = [...moviesData, ...tvShowsData]; 
