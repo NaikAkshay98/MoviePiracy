@@ -35,13 +35,13 @@ const Navbar = () => {
   
     try {
       // Fetch movies
-      const moviesResponse = await axios.get(`http://localhost:6070/api/search/movies?title=${searchQuery}`);
+      const moviesResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/search/movies?title=${searchQuery}`);
       if (moviesResponse.data && Array.isArray(moviesResponse.data)) {
         movies = moviesResponse.data;
       }
   
       // Fetch TV shows
-      const tvShowsResponse = await axios.get(`http://localhost:6070/api/search/tvshows?title=${searchQuery}`);
+      const tvShowsResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/search/tvshows?title=${searchQuery}`);
       if (tvShowsResponse.data && Array.isArray(tvShowsResponse.data)) {
         tvshows = tvShowsResponse.data;
       }
