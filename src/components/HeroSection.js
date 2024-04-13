@@ -11,12 +11,12 @@ const HeroSection = () => {
   useEffect(() => {
     const fetchBanners = async () => {
       try {
-        // Replace the local fetch call with a call to your endpoint
+        
         const response = await axios.get('https://moviepiracy-3b45209c39bf.herokuapp.com/api/banners');
-        setBanners(response.data); // Assuming the response data is an array of banners
+        setBanners(response.data); 
       } catch (error) {
         console.error('Error fetching banners:', error);
-        // Handle error, possibly setting an error state or displaying a message
+        
       }
     };
 
@@ -36,7 +36,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <Slider {...settings}>
-        {banners.map((banner, index) => ( // Remove the optional chaining if you're sure the data is always an array
+        {banners.map((banner, index) => ( 
           <div key={index} className="hero-slide">
             <img src={banner.image} alt={banner.title} />
           </div>

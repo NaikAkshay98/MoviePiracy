@@ -3,12 +3,12 @@ import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
-import { UserContext } from '../components/UserContext'; // Import UserContext
+import { UserContext } from '../components/UserContext'; 
 import '../css/Registration.css';
 
 const Registration = ({ onClose }) => {
   const navigate = useNavigate();
-  const { setUser } = useContext(UserContext); // Use setUser from context
+  const { setUser } = useContext(UserContext); 
 
   const [formData, setFormData] = useState({
     firstName: '',
@@ -29,12 +29,12 @@ const Registration = ({ onClose }) => {
     e.preventDefault();
     try {
       const response = await axios.post('https://moviepiracy-3b45209c39bf.herokuapp.com/api/users', formData);
-      setUser(response.data); // Update user context with newly registered user
-      localStorage.setItem('user', JSON.stringify(response.data)); // Optional: Save user to localStorage
+      setUser(response.data); 
+      localStorage.setItem('user', JSON.stringify(response.data)); 
       toast.success('Registration successful!', {
         onClose: () => {
-          onClose(); // Close the registration modal
-          setTimeout(() => navigate('/'), 500); // Delay navigation to give the user time to see the toast
+          onClose(); 
+          setTimeout(() => navigate('/'), 500); 
         }
       });
     } catch (error) {

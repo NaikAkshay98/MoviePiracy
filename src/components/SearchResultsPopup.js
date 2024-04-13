@@ -18,8 +18,8 @@ const SearchResultsPopup = ({ searchResults, onClose }) => {
                 key={result.id} 
                 className="search-result-item"
                 onClick={() => {
-                  onClose(); // Call onClose to close the popup
-                  navigate(`/${result.title}/${result.id}`); // Then navigate
+                  onClose(); 
+                  navigate(`/${result.title}/${result.id}`); 
                 }}
               >
                 <img src={result.poster} alt={result.title} className="search-result-image" />

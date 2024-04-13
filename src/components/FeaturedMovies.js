@@ -4,7 +4,7 @@ import '../css/FeaturedMoviesTVShows.css';
 
 
 const FeaturedMovies = () => {
-  const [featuredMovies, setFeaturedMovies] = useState([]); // Ensure camelCase naming convention for consistency
+  const [featuredMovies, setFeaturedMovies] = useState([]); 
 
   useEffect(() => {
     const fetchFeaturedMovies = async () => {
@@ -14,10 +14,10 @@ const FeaturedMovies = () => {
           throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        setFeaturedMovies(data); // Adjust according to the actual structure of your response
+        setFeaturedMovies(data); 
       } catch (error) {
         console.error('Error fetching featured movies:', error);
-        // Handle errors, such as showing a message to the user
+        
       }
     };
 

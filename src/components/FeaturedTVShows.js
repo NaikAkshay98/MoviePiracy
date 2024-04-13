@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios'; // Make sure to install and import axios
+import axios from 'axios'; 
 import { Link } from 'react-router-dom';
 import '../css/FeaturedMoviesTVShows.css'; 
 
 const FeaturedTVShows = () => {
-  const [featuredtvshows, setFeaturedTVShows] = useState([]); // Changed to camelCase for consistency
+  const [featuredtvshows, setFeaturedTVShows] = useState([]); 
 
   useEffect(() => {
     const fetchFeaturedTVShows = async () => {
       try {
         // Use axios to fetch data from your API endpoint
         const response = await axios.get('https://moviepiracy-3b45209c39bf.herokuapp.com/api/tvshows/featured');
-        setFeaturedTVShows(response.data); // Assuming the API returns the data array directly
+        setFeaturedTVShows(response.data); 
       } catch (error) {
         console.error('Error fetching featured TV shows:', error);
-        // Handle error here, e.g., update state to show an error message to the user
+        
       }
     };
 

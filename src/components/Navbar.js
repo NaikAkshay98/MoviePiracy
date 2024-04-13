@@ -1,10 +1,10 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import axios from 'axios'; // Make sure axios is imported
+import axios from 'axios'; 
 import '../css/Navbar.css';
 import Registration from '../pages/Registration';
 import Login from '../pages/Login';
-import SearchResultsPopup from './SearchResultsPopup'; // Import the new component
+import SearchResultsPopup from './SearchResultsPopup'; 
 import { UserContext } from './UserContext';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -27,39 +27,40 @@ const Navbar = () => {
 
   const handleSubmitSearch = async (e) => {
     e.preventDefault();
-    setShowSearchPopup(false); // Reset the popup visibility
+    setShowSearchPopup(false);
   
-    // Initialize empty arrays to hold the search results
+    
+    const normalizedQuery = encodeURIComponent(searchQuery.trim());
+    console.log(normalizedQuery);
     let movies = [];
     let tvshows = [];
   
     try {
-      // Fetch movies
-      const moviesResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/search/movies?title=${searchQuery}`);
+      const moviesResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/search/movies?title=${normalizedQuery}`);
       if (moviesResponse.data && Array.isArray(moviesResponse.data)) {
         movies = moviesResponse.data;
       }
   
-      // Fetch TV shows
-      const tvShowsResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/search/tvshows?title=${searchQuery}`);
+      const tvShowsResponse = await axios.get(`https://moviepiracy-3b45209c39bf.herokuapp.com/api/search/tvshows?title=${normalizedQuery}`);
       if (tvShowsResponse.data && Array.isArray(tvShowsResponse.data)) {
         tvshows = tvShowsResponse.data;
       }
   
-      // Combine the movies and tvshows into one array
       const combinedResults = [...movies, ...tvshows];
       setSearchResults(combinedResults);
       if (combinedResults.length > 0) {
-        setShowSearchPopup(true); // Show the results popup only if there are results
+        setShowSearchPopup(true);
       } else {
         toast.info('No results found.');
       }
     } catch (error) {
       console.error('Search failed:', error);
-      setSearchResults([]); // Clear previous search results
+      setSearchResults([]);
       toast.error('Search failed: ' + (error.response?.data?.message || 'Unknown error'));
     }
   };
+  
+  
   
   
   
@@ -71,8 +72,8 @@ const Navbar = () => {
   
 
   const handleSignOut = () => {
-    signOut(); // Call the signOut method from your context
-    navigate('/'); // Redirect to home after sign out
+    signOut(); 
+    navigate('/'); 
   };
 
   return (
